@@ -7,7 +7,7 @@ The main reasons why people are hesitant towards carpooling are:
 
 1) Awkwardness with a stranger
 2) Security
-3) Longer waiting time.
+3) Longer waiting time...
 
 Our project strips out all of that complexity from the process and provides a match based upon similar interests and personality traits in a user friendly interface.
 # Solution Proposed
