@@ -76,13 +76,15 @@ def personality(u1, d1):  # takes in user and dictionary of all users
     compatible = compatibility1.get(per1)
     if compatible == None:
         compatible = compatibility2.get(per1)
+# This line initializes an empty list li_usrs to store users who have a compatible personality type with u1.
 
     li_usrs = []
     keys1 = list(d1.keys())
-
+# It iterates through the keys of the d1 dictionary, which represent usernames, using a for loop.
     for i in keys1:
         if d1[i] == compatible:
-            li_usrs.append(i)
+            li_usrs.append(i) 
+            # stored username of compability 
     print(li_usrs)
     return li_usrs
 
